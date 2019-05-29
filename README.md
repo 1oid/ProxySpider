@@ -44,3 +44,6 @@ def callback(ch, method, properties, body):
 recived_task(CHANNEL_ID, callback)
 # print(recive_task_one(CHANNEL_ID))
 ```
+
+* 运行截图(左为生产者, 将数据pulish到分布式队列, 右为编写的消费者, 一直从队列取出数据)
+![image](https://user-images.githubusercontent.com/19285429/58568109-33de6a00-8266-11e9-9e49-273100074b01.png)

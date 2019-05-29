@@ -1,6 +1,6 @@
 import pika
 import json
-from ProxySpider.config import RABBITMQ_PASS, RABBITMQ_SERVER, RABBITMQ_USER
+from config import RABBITMQ_PASS, RABBITMQ_SERVER, RABBITMQ_USER
 
 
 def publish_task(channel_id, data):

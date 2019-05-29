@@ -1,6 +1,6 @@
 import requests
 import re
-from ProxySpider.config import CHECK_TIMEOUT
+from config import CHECK_TIMEOUT
 import urllib3
 import socket
 import time

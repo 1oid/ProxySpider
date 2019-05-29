@@ -1,8 +1,8 @@
 import requests
 import re
 import time
-from ProxySpider.libs.checkproxy import CheckProxy
-from ProxySpider.libs.rabbitmq import publish_task
+from libs.checkproxy import CheckProxy
+from libs.rabbitmq import publish_task
 import json
 
 

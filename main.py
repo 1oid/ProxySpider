@@ -1,10 +1,10 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from ProxySpider.libs.rabbitmq import recived_task
-from ProxySpider.libs.plugin import *
-from ProxySpider.libs.checkproxy import CheckProxy
-from ProxySpider.libs.rabbitmq import publish_task, recived_task
-from ProxySpider.config import CHANNEL_ID
+from libs.rabbitmq import recived_task
+from libs.plugin import *
+from libs.checkproxy import CheckProxy
+from libs.rabbitmq import publish_task, recived_task
+from config import CHANNEL_ID
 import logging
 
 # logging.basicConfig(level=logging.INFO, format="%(asctime)s [line:%(lineno)d] %(levelname)s %(message)s")
